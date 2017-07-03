@@ -1,0 +1,15 @@
+@keyframes cycle{
+	from {margin-left:0px;}
+    to {margin-left:500px;}
+}
+div{
+	margin-left:0px;
+	animation-name: cycle;
+	animation-timing-function: ease;
+	 animation-duration: 5s;
+	  animation-iteration-count: infinite;
+	 
+}
+img{
+	top:0px;
+}
